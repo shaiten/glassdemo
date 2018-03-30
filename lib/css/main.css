@@ -1,0 +1,170 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;
+	background: url(../../rsc/bg/subtlegrunge.png);
+}
+.borderb{
+	border: 1px solid black;
+}
+#content-wrapper{
+	padding: 0;
+}
+/* 
+	navigation
+	 */
+	 	.navbar-brand{
+	 		font-weight: 800;
+ 		    color: #343a40;
+	 	}
+
+/* 
+	page head
+	 */
+	 #slideshow{
+	 	margin-top: 15px;
+	 }
+	#show{
+		padding: 0;
+	}
+		#show img{
+			padding: 0;
+		}
+		.slides{
+			height: 20em;
+			margin: 0;
+			padding: 0;
+		}
+		#show-text{
+			text-align: center;
+			padding-top: 5em;
+			background: #3878A8;
+			color: white;
+		}
+		.hidden{
+			display: none;
+		}
+/* 
+	main content
+	 */
+ #showcase{
+ 	padding-top: 20px;
+ 	background: linear-gradient(to bottom, rgb(255,255,255)95%, #43729C);
+ }
+	.types{
+	 	height: auto;
+	}
+	#showcase h3{
+	 	text-align: center;
+	 	padding: 10px 0;
+	}
+	#description-content{
+		background: white;
+	}
+		#description-content h3{
+			padding: 2rem 0;
+			border-bottom: 1px solid black;
+			margin: 0;
+		}
+		.description-text{
+			padding: 1rem 0;
+			border-top: 1px solid black;
+			margin-top: 2px;
+		}
+		#description-content ul{
+			padding-left:  20px;
+			padding-bottom: 2rem;
+			border-bottom: 1px dotted black;
+		}
+/*
+	footer
+	*/
+	footer{
+		text-align: center;
+		padding-top: 2%;
+		height: 3rem;
+		background: gray;
+	}
+/*
+	filter gallerypage
+	*/
+	#filter{
+		position: fixed;
+		left: 0;
+		top: 5rem;
+		z-index: 1;
+		height: 170px;
+		width: 150px;
+		padding-top: 20px;
+		border: 1px solid black;
+		box-shadow: 1px 1px 4px rgba(3, 3, 250, 0.7),0 -1px 4px rgba(3, 3, 250, 0.7);
+		background: white;
+	}
+		#filter *{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		#search-filter{
+			width: 120px;
+		}
+		#select-filter{
+			width: 120px;
+			height: 30px;
+		}
+		#toggle{
+			margin-top: 20px;
+			margin-left: 20px;
+			padding: 5px 10px;
+		    height: 35px;
+		}
+
+/* 
+	pagehead 
+	 */
+	 #youtube{
+	 	position: relative;
+	 	height: 25em;
+	 	overflow: hidden;
+	 }
+		 #youtube iframe{
+		 	position: absolute;
+		 	top:0;
+		 	left: 0;
+		 	width: 100%;
+		 	height: 100%;
+		 }
+/*
+	gallery
+	*/
+	#gallery{
+		margin-top: 10px;
+	}
+		#gallery-container{
+			padding: 30px 10px;
+			background: white;
+			box-shadow: 0px -3px 2px rgba(3, 3, 250, 0.3), -3px 0px 2px rgba(3, 3, 250, 0.3), 3px 0px 2px rgba(3, 3, 250, 0.3);
+		}
+			#gallery-container .row{
+				margin-bottom: 15px;
+			}
+		.img-header{
+			text-align: center;
+			height: 50px;
+		    background: white;
+		    padding-top: 10px;
+		    border: 1px dotted black;
+		}
+		#gallery-container img{
+		    -webkit-transform: scale(1);
+		    transform: scale(1);
+		    -webkit-transition: .3s ease-in-out;
+		    transition: .3s ease-in-out;
+		}
+			#gallery-container img:hover{
+				-webkit-transform: scale(1.05);
+				transform: scale(1.05);	
+			}
